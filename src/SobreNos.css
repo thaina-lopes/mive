@@ -1,0 +1,31 @@
+.sobreNos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 200px 100px;
+}
+
+.titulo_SobreNos {
+  color: var(--roxo-texto);
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.paragrafo_SobreNos {
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 100;
+}
+
+.container_imagem {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Francieli {
+  width: 550px;
+}

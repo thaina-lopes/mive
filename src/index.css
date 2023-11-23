@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --branco: #e6e7e8;
+  --roxo: #56047d;
+  --roxo-texto: #8300c2;
+}
+
+@font-face {
+  font-family: Calmius;
+  src: url(/public/fonts/Calmius-Regular.woff);
+}
+
+body {
+  font-family: "Calmius";
+  font-weight: normal;
+  font-style: normal;
+}

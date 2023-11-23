@@ -1,0 +1,21 @@
+.cabecalho {
+  background-color: var(--roxo);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+nav {
+  color: var(--branco);
+}
+
+.logo {
+  width: 100px;
+  margin: 15px 15px 15px 20px;
+}
+
+a {
+  font-size: 25px;
+  margin: 0 30px;
+}
