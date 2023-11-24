@@ -55,7 +55,7 @@
 
 @media (max-width: 560px) {
   .banner-container {
-    background-image: url("./img/banner_celular.png");
+    background-image: url("./img/banner__celular.png");
     margin-top: -250px;
   }
 }
