@@ -1,7 +1,7 @@
 .sobreNos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 200px 100px;
+  margin: 200px 50px;
 }
 
 .titulo_SobreNos {
@@ -28,4 +28,56 @@
 
 .Francieli {
   width: 550px;
+  margin-left: 70px;
+}
+
+@media (max-width: 1400px) {
+  .sobreNos {
+    margin: 200px 20px;
+  }
+
+  .paragrafo_SobreNos {
+    margin-left: 20px;
+  }
+
+  .Francieli {
+    margin-left: 90px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sobreNos {
+    display: block;
+    margin: 100px 50px;
+  }
+
+  .paragrafo_SobreNos {
+    margin-left: 0px;
+  }
+
+  .Francieli {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 740px) {
+  .sobreNos {
+    margin: 100px 25px;
+  }
+
+  .titulo_SobreNos {
+    font-size: 35px;
+    margin: 30px 0;
+  }
+
+  .paragrafo_SobreNos {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .Francieli {
+    width: 300px;
+  }
 }

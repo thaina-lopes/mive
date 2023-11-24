@@ -8,14 +8,46 @@
 
 nav {
   color: var(--branco);
+  margin-right: 20px;
 }
 
 .logo {
-  width: 100px;
+  width: 80px;
   margin: 15px 15px 15px 20px;
 }
 
 a {
   font-size: 25px;
   margin: 0 30px;
+}
+
+@media (max-width: 1024px) {
+  a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  a {
+    margin: 0 15px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+}
+
+@media (max-width: 560px) {
+  nav {
+    margin-right: 5px;
+  }
+  a {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+
+  .logo {
+    width: 50px;
+    margin: 15px 0px 15px 15px;
+  }
 }

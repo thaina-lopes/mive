@@ -7,7 +7,6 @@ export default function Cabecalho() {
       <div className="cabecalho">
         <img src={logo} alt="Logo da Mivê" className="logo" />
         <nav>
-          <a>Início</a>
           <a>Sobre nós</a>
           <a>Serviços</a>
           <a>Contato</a>
