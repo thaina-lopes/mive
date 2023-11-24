@@ -35,20 +35,27 @@
 @media (max-width: 760px) {
   .banner-container {
     height: 900px;
-    margin-top: -250px;
+    margin-top: -150px;
   }
 
   .titulo {
-    font-size: 90px;
+    font-size: 70px;
     padding-top: 350px;
-    margin-bottom: -70px;
+    margin-bottom: -55px;
   }
 
   .titulo::first-letter {
-    font-size: 120px;
+    font-size: 100px;
   }
 
   .subtitulo {
-    font-size: 18px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 560px) {
+  .banner-container {
+    background-image: url("./img/banner_celular.png");
+    margin-top: -250px;
   }
 }
