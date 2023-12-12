@@ -1,6 +1,6 @@
 import "./SobreNos.css";
-import sobrenos from "./img/img_quem-somos.png";
-import sobrenos2 from "./img/sobrenos2.png";
+import sobrenos from "./img/sobrenos4.png";
+import sobrenos2 from "./img/sobrenos3.png";
 
 export default function SobreNos() {
   return (
