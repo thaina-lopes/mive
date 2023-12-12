@@ -11,9 +11,11 @@ nav {
   margin-right: 20px;
 }
 
-.logo {
-  width: 80px;
-  margin: 15px 15px 15px 20px;
+.M-logo {
+  font-family: "Yeseva One", serif;
+  color: var(--branco);
+  font-size: 50px;
+  margin: 0px 15px 10px 25px;
 }
 
 a {
@@ -42,12 +44,12 @@ a {
     margin-right: 0px;
   }
   a {
-    font-size: 18px;
+    font-size: 17px;
     margin: 0 8px;
   }
 
-  .logo {
-    width: 50px;
-    margin: 15px 0px 15px 10px;
+  .M-logo {
+    font-size: 35px;
+    margin: 0px 0px 10px 5px;
   }
 }

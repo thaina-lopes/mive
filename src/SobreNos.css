@@ -1,70 +1,85 @@
 .sobreNos {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 200px 50px;
+  margin: 0;
 }
 
 .titulo_SobreNos {
-  color: var(--roxo-texto);
+  color: var(--roxo);
   font-size: 50px;
   text-align: center;
-  margin: 50px 0;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.container_SobreNos {
+  margin: 0px 50px 0px 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .paragrafo_SobreNos {
-  font-size: 25px;
+  font-size: 24px;
   line-height: 1.5;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 100;
+  color: var(--roxo);
+  font-family: Telegraf;
+  margin-top: 30px;
 }
 
 .container_imagem {
-  align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  height: 100%;
 }
 
 .Francieli {
-  width: 550px;
+  width: 650px;
   margin-left: 70px;
+}
+.Francieli2 {
+  display: none;
 }
 
 @media (max-width: 1400px) {
-  .sobreNos {
-    margin: 200px 20px;
-  }
-
-  .paragrafo_SobreNos {
-    margin-left: 20px;
-  }
-
-  .Francieli {
-    margin-left: 90px;
-    width: 450px;
-  }
-}
-
-@media (max-width: 1024px) {
-  .sobreNos {
-    display: block;
-    margin: 100px 50px;
-  }
-
   .paragrafo_SobreNos {
     margin-left: 0px;
   }
 
   .Francieli {
+    margin-left: 90px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container_SobreNos {
+    margin: 50px;
+  }
+  .paragrafo_SobreNos {
+    margin-left: 0px;
+    font-size: 22px;
+  }
+  .Francieli {
+    display: none;
+  }
+  .Francieli2 {
+    display: grid;
+    width: 450px;
     margin-left: 0px;
     margin-top: 50px;
   }
 }
 
 @media (max-width: 740px) {
+  .container_SobreNos {
+    margin: 50px 50px 10px 50px;
+  }
   .sobreNos {
-    margin: 20px 25px 50px 25px;
+    margin: 20px 25px;
+    display: block;
   }
 
   .titulo_SobreNos {
@@ -75,9 +90,22 @@
   .paragrafo_SobreNos {
     font-size: 18px;
     font-weight: 100;
+    margin-top: 0px;
   }
 
-  .Francieli {
+  .Francieli2 {
     width: 300px;
+  }
+}
+@media (max-width: 560px) {
+  .container_SobreNos {
+    margin: 50px 20px 10px 20px;
+  }
+
+  .titulo_SobreNos {
+    justify-content: center;
+  }
+  .Francieli2 {
+    width: 250px;
   }
 }

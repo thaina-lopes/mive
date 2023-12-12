@@ -15,6 +15,11 @@
   src: url(/public/fonts/Calmius-Regular.woff);
 }
 
+@font-face {
+  font-family: Telegraf;
+  src: url(/public/fonts/PPTelegraf-Regular.otf);
+}
+
 body {
   font-family: "Calmius";
   font-weight: normal;
