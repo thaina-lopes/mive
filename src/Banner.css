@@ -21,7 +21,7 @@
 
 .titulo::first-letter {
   font-family: "Yeseva One", serif;
-  font-size: 280px;
+  font-size: 350px;
   font-weight: 500;
 }
 
@@ -34,17 +34,17 @@
 
 @media (max-width: 1024px) {
   .titulo {
-    font-size: 200px;
-    padding-top: 180px;
+    font-size: 180px;
+    padding-top: 200px;
   }
 
   .titulo::first-letter {
-    font-size: 240px;
+    font-size: 280px;
   }
 
   .subtitulo {
-    font-size: 38px;
-    margin-top: -150px;
+    font-size: 35px;
+    margin-top: -140px;
   }
 }
 @media (max-width: 760px) {
@@ -59,12 +59,12 @@
   }
 
   .titulo::first-letter {
-    font-size: 140px;
+    font-size: 180px;
   }
 
   .subtitulo {
     font-size: 25px;
-    margin-top: -80px;
+    margin-top: -85px;
   }
 }
 
@@ -74,16 +74,16 @@
     margin-top: -250px;
   }
   .titulo {
-    font-size: 90px;
+    font-size: 80px;
     padding-top: 330px;
   }
 
   .titulo::first-letter {
-    font-size: 120px;
+    font-size: 140px;
   }
 
   .subtitulo {
-    font-size: 18px;
-    margin-top: -70px;
+    font-size: 16px;
+    margin-top: -60px;
   }
 }
