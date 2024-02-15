@@ -35,21 +35,6 @@
 
 @media (max-width: 760px) {
   .sua-marca {
-    height: 700px;
-  }
-  .titulo_sua-marca {
-    font-size: 60px;
-    margin-bottom: -50px;
-  }
-  .titulo_sua-marca::first-letter {
-    font-size: 100px;
-  }
-  .subtitulo_sua-marca {
-    font-size: 35px;
-  }
-}
-@media (max-width: 760px) {
-  .sua-marca {
     height: 600px;
   }
   .titulo_sua-marca {
@@ -65,6 +50,9 @@
 }
 @media (max-width: 550px) {
   .sua-marca {
+    background-image: url("./img/banner_sua_marca_celular.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
   }
   .titulo_sua-marca {

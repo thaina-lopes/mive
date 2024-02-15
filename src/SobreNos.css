@@ -80,7 +80,7 @@
     margin: 50px 50px 10px 50px;
   }
   .sobreNos {
-    margin: 20px 0px;
+    margin: 0px;
     display: block;
   }
 
@@ -101,7 +101,7 @@
 }
 @media (max-width: 560px) {
   .container_SobreNos {
-    margin: 50px 20px 10px 20px;
+    margin: 0px 20px 10px 20px;
   }
 
   .titulo_SobreNos {
@@ -114,8 +114,5 @@
   .Francieli2 {
     width: 100%;
     margin-top: 0px;
-  }
-  .sobreNos {
-    margin: 20px 0px;
   }
 }
