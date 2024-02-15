@@ -50,7 +50,7 @@
 }
 @media (max-width: 550px) {
   .sua-marca {
-    background-image: url("./img/banner_sua_marca_celular.jpg");
+    background-image: url("./img/banner_sua_marca_celular.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;

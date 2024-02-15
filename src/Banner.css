@@ -72,6 +72,7 @@
   .banner-container {
     background-image: url("./img/banner__celular.png");
     margin-top: -250px;
+    height: 800px;
   }
   .titulo {
     font-size: 80px;
