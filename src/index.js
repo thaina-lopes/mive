@@ -4,6 +4,7 @@ import "./index.css";
 import Cabecalho from "./Cabecalho";
 import Banner from "./Banner";
 import SobreNos from "./SobreNos";
+import Servicos from "./Servicos";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,5 +12,6 @@ root.render(
     <Cabecalho />
     <Banner />
     <SobreNos />
+    <Servicos />
   </React.StrictMode>
 );

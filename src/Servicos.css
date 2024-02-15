@@ -1,0 +1,37 @@
+.servicos {
+  background-image: url("./img/servicos_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.servicos_titulo {
+  color: var(--roxo);
+}
+
+.servicos_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px 0px 130px;
+}
+
+.servicos_oferecidos {
+  background-color: var(--branco);
+  border-radius: 20px;
+  border: var(--roxo) 6px solid;
+  color: var(--verde);
+  padding: 50px 80px;
+  text-align: center;
+  margin: 90px 30px;
+}
+
+.titulo_servicos {
+  color: var(--roxo);
+  font-size: 20px;
+  font-family: Telegraf;
+  margin-bottom: 20px;
+}
+
+.descricao_servicos {
+  color: var(--roxo);
+  font-size: 18px;
+  font-family: Telegraf;
+}
