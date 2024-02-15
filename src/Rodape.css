@@ -1,0 +1,27 @@
+.rodape {
+  background-color: var(--roxo);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape-mive {
+  align-items: center;
+  color: var(--branco);
+  display: flex;
+  font-size: 18px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.assinatura {
+  font-family: Calmius;
+  font-size: 16px;
+  margin-left: 3px;
+}
+
+.assinatura::first-letter {
+  font-family: "Yeseva One", serif;
+  font-size: 19px;
+}
