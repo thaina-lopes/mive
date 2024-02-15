@@ -25,3 +25,12 @@
   font-family: "Yeseva One", serif;
   font-size: 19px;
 }
+
+@media (max-width: 560px) {
+  .rodape-mive {
+    font-size: 16px;
+  }
+  .assinatura {
+    font-size: 14px;
+  }
+}

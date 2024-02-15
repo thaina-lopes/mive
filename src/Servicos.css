@@ -68,12 +68,16 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .servicos_oferecidos {
     width: 350px;
     height: 300px;
     padding: 35px 10px;
     margin: 90px 10px;
+  }
+  .servicos_titulo {
+    font-size: 45px;
+    margin-left: 50px;
   }
   .titulo_servicos {
     font-size: 18px;
