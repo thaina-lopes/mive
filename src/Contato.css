@@ -1,0 +1,33 @@
+.contato {
+  height: 400px;
+  background-image: url("./img/banner_contato2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titulo_contato {
+  color: var(--roxo);
+  font-size: 50px;
+  font-weight: 500;
+  margin: 50px 0 70px 130px;
+}
+
+.container_contato {
+  margin-left: 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contatos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.texto_contato {
+  color: var(--roxo);
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: Telegraf;
+  text-decoration: none;
+}
