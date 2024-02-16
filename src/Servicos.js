@@ -5,7 +5,7 @@ import site from "./img/img_site.png";
 
 export default function Servicos() {
   return (
-    <section>
+    <section id="servicos">
       <div className="servicos">
         <h1 className="servicos_titulo">Serviços</h1>
         <div className="servicos_container">

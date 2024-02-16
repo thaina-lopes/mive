@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 export default function Contato() {
   return (
-    <section className="contato">
+    <section className="contato" id="contato">
       <h1 className="titulo_contato">Contato</h1>
       <div className="container_contato">
         <div className="contatos">

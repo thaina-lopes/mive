@@ -4,7 +4,7 @@ import sobrenos2 from "./img/sobrenos3.png";
 
 export default function SobreNos() {
   return (
-    <section className="sobreNos">
+    <section className="sobreNos" id="quemsomos">
       <div className="container_SobreNos">
         <h2 className="titulo_SobreNos">Quem Somos</h2>
         <p className="paragrafo_SobreNos">

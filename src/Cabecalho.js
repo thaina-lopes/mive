@@ -5,11 +5,19 @@ export default function Cabecalho() {
   return (
     <header>
       <div className="cabecalho">
-        <a className="M-logo">m</a>
+        <a href="#inicio" className="M-logo">
+          m
+        </a>
         <nav>
-          <a>Quem somos</a>
-          <a>Serviços</a>
-          <a>Contato</a>
+          <a href="#quemsomos" className="menu">
+            Quem somos
+          </a>
+          <a href="#servicos" className="menu">
+            Serviços
+          </a>
+          <a href="#contato" className="menu">
+            Contato
+          </a>
           <a
             className="whats"
             href="https://api.whatsapp.com/send?phone=5551995463448"

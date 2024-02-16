@@ -5,7 +5,7 @@ export default function Rodape() {
     <footer>
       <div className="rodape">
         <a
-          href="https://agencia-mive.vercel.app/"
+          href="https://mivedigital.com.br/"
           target="_blank"
           class="rodape-mive"
           rel="noreferrer"
